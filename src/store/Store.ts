@@ -17,6 +17,7 @@ export class Store {
   editorElements: EditorElement[]
   selectedElement: EditorElement | null;
 
+
   maxTime: number
   animations: Animation[]
   animationTimeLine: anime.AnimeTimelineInstance;
